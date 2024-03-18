@@ -1,0 +1,20 @@
+{
+  "name": "DanniGPT",
+  "short_name": "DanniGPT",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ff69b4",
+  "theme_color": "#ff69b4",
+  "icons": [
+    {
+      "src": "/dannigpt_icon_96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/dannigpt_icon_v3_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

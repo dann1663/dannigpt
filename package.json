@@ -1,0 +1,27 @@
+{
+  "name": "dannigpt",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cp public/sitemap.xml dist/sitemap.xml",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "axios": "^1.6.7",
+    "firebase-tools": "^13.4.1",
+    "font-awesome": "^4.7.0",
+    "g": "^2.0.1",
+    "openai": "^4.28.0",
+    "vue": "^3.4.21",
+    "vue-meta": "^2.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.0.11"
+  }
+}
